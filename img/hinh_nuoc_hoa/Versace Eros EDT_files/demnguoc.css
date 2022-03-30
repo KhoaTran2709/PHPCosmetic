@@ -1,0 +1,24 @@
+.demnguoc {
+	display: inline-block;
+	padding-left: 20px;
+}
+.demnguoc-item {
+	display: inline-block;
+	text-align: center;
+}
+
+.demnguoc-item span {
+	background: #000;
+	color: #fff;
+	height: 17px;
+	margin-bottom: 4px;
+	padding: 1px 7px;
+	line-height: 20px;
+	font-size: 11px;
+	box-sizing: content-box;
+	border-radius: 4px;
+}
+.demnguoc-item p {
+	font-size: 10px;
+	color: #fff;
+}

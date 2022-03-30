@@ -11,7 +11,7 @@
        <td colspan="1">Quản Lí</td>
     </tr>
     <?php
-    
+        
         while($dong=mysqli_fetch_array($row_list)) {
     ?>
     <tr>
@@ -19,10 +19,11 @@
         <td><?php echo $dong['Type_ID'] ?></td>
         <td><?php echo $dong['Type_Name'] ?></td>
         <td><?php echo $dong['Type_Description'] ?></td>
-        <td><button>Sửa</button><button>Xóa</button></td>
+        <td><a href ="index.php?quanli=quanliloainuochoa&ac=edit&id =<?php echo $dong['Type_ID'] ?>">Sửa</a></td>
+        <td><a href="modules/quanliloainuochoa/handle.php?id=<?php echo $dong['Type_ID'] ?>">Xóa</a></td>
     </tr>
     <?php
-    
+        
         }
     ?>
 </table>
