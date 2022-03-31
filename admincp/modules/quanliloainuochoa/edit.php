@@ -6,7 +6,7 @@
     
 ?>
 <form action="modules/quanliloainuochoa/handle.php?id=<?php echo $dong['Type_ID']?>" method="post" enctype="multipart/form-data">
-<table width ="100%" border ="1">
+<table width ="50%" border ="1">
     <tr>
         <td colspan="2"><div align="center">Sửa loại nước hoa</div></td>
     </tr>

@@ -1,5 +1,5 @@
 <form action="modules/quanliloainuochoa/handle.php" method="post" enctype="multipart/form-data">
-<table width ="100%" border ="1">
+<table width ="50%" border ="1" align="left">
     <tr>
         <td colspan="2"><div align="center">Thêm loại nước hoa</div></td>
     </tr>
@@ -13,7 +13,7 @@
     </tr>
     <tr>
         <td colspan ="2"><div align="center">
-            <input type ="submit" name="add" id="add" value="Add"></td>
+            <input type ="submit" name="add" id="add" value="Thêm loại mới"></td>
     </tr>
 </table>
 </form>

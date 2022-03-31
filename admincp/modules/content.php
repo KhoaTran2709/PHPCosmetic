@@ -8,6 +8,10 @@
     }if($tam =='quanliloainuochoa')
     {
       include('modules/quanliloainuochoa/main.php');
+    }if($tam == 'quanlinuochoa')
+    {
+      include('modules/quanlinuochoa/main.php');
     }
+    
   ?>
     <div class ="clear"></div>
