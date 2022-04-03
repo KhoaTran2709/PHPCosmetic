@@ -1,5 +1,5 @@
 <?php
-    include('modules/config.php');
+    include('modules/config.php'); // Danh cung thich cmt cho nay
     session_start();
     if(isset($_POST['login'])){
         $ad_id = $_POST['ad_id'];
