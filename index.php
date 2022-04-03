@@ -8,7 +8,7 @@
   <title>Website Shopping Perfumes</title>
 </head>
 <body>
-  <div class ="wrapper">
+  <div class ="wrapper"> <!-- Hoàng đã cmt chỗ này-->
     <?php
       include('admincp/modules/config.php');
       include('modules/header.php');
