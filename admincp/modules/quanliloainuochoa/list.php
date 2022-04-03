@@ -3,7 +3,7 @@
     $sql_list = "select `Type_ID`, `Type_Name`, `Type_Description` from perfume_type";
     $row_list = mysqli_query($conn,$sql_list);
 ?>
-<table width ="auto" border ="2" align="right">
+<table width ="auto" border ="2" align="center">
     <tr>
        <td>TypeID</td>
        <td>Type_Name</td>

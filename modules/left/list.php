@@ -1,16 +1,17 @@
+
 <?php 
     $sql_pertype = "SELECT * FROM `perfume_type`";
     $run_pertype = mysqli_query($conn,$sql_pertype);
 ?>
-
-    <p style = "text-align:center; color:blue; border:1">Loại nước hoa</p>
-    <div class="navi-loainuochoa">
-        <ul>
+<div class="box-list">
+<div class="tieude">Loại Nước Hoa</div>
+    
+        <ul class = "list">
             <?php
                 while($dong_pertype=mysqli_fetch_array($run_pertype)){
             ?>
             <li>
-                <a href="index.php?quanli=pertype?id=<?php echo $dong_pertype['Type_ID'] ?>"><?php echo $dong_pertype['Type_Name'] ?></a>
+                <a href="index.php?quanli=loainuochoa&id=<?php echo $dong_pertype['Type_ID'] ?>"><?php echo $dong_pertype['Type_Name'] ?></a>
             </li>
             <?php
             }

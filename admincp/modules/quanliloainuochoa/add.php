@@ -1,5 +1,5 @@
 <form action="modules/quanliloainuochoa/handle.php" method="post" enctype="multipart/form-data">
-<table width ="50%" border ="1" align="left">
+<table width ="30%" border ="1" align="left" style ="margin-left:-30%">
     <tr>
         <td colspan="2"><div align="center">Thêm loại nước hoa</div></td>
     </tr>

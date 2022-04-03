@@ -7,6 +7,14 @@
   <link rel="stylesheet" type="text/css" href="style/css.css" />
   <title>Trang AdminCP</title>
 </head>
+
+<?php
+session_start();
+  if(!isset($_SESSION['dangnhap']))
+  {
+    header('location:login.php');
+  }
+?>
 <body>
   <div class ="wrapper">
   <?php

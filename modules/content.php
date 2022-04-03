@@ -10,14 +10,17 @@
 					$tam= $_GET['quanli'];
 				}else{
 					$tam ='';
-				}if($tam == 'detail'){
-					include('modules/right/detail.php');
-				}elseif($tam == 'pertype'){
-					include('modules/right/list-perfume-type.php');
-				
-				
+					
+				}if($tam == 'chitietnuochoa'){
+					include('modules/right/chitietnuochoa.php');
+				}else if($tam == 'loainuochoa'){
+					include('modules/right/loainuochoa.php');
+				}else if($tam == 'dangki'){
+					include('modules/right/dangki.php');
+				}else if($tam == 'thongbao'){
+					include('modules/right/thongbao.php');
 				}else{
-					//include('modules/right/spmoi.php');
+					include('modules/right/tatcasp.php');
 				}
 			?>
         </div>
