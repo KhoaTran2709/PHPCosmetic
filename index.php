@@ -10,7 +10,7 @@
 <body>
   <div class ="wrapper">
     <?php
-      include('admincp/modules/config.php');
+      include('admincp/modules/config.php'); // Danh đã cmt chỗ này lần 1
       include('modules/header.php');
       include('modules/menu.php');
       include('modules/content.php');
