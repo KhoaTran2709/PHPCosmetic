@@ -14,7 +14,7 @@
         //if($count>0){
 			while($dong_chitiet=mysqli_fetch_array($query_chitiet)){
 			?>
-            <li><a href="?quanli=chitietnuochoa&Type_ID=<?php echo $dong_chitiet['perfume'] ?>">
+            <li><a href="index.php?quanli=chitietnuochoa&id=<?php echo $dong_chitiet['Perfume_ID'] ?>">
             	<img src="admincp/modules/quanlinuochoa/uploads/<?php echo $dong_chitiet['Perfume_Image'] ?>" width="150" height="150" />
                 <p><?php echo $dong_chitiet['Perfume_Name'] ?></p>
                 <p><?php echo $dong_chitiet['Perfume_Price'] ?></p>

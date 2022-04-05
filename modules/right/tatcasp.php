@@ -9,7 +9,7 @@
 		<?php
 			while($dong_all=mysqli_fetch_array($query_all)){
 			?>
-            <li><a href="index.php?quanli=pertype&id=<?php echo $dong_per['Type_ID'] ?>">
+            <li><a href="index.php?quanli=chitietnuochoa&id=<?php echo $dong_all['Perfume_ID'] ?>">
             	<img src="admincp/modules/quanlinuochoa/uploads/<?php echo $dong_all['Perfume_Image'] ?>" width="150" height="150" />
                 <p><?php echo $dong_all['Perfume_Name'] ?></p>
                 <p><?php echo $dong_all['Perfume_Price'] ?></p>
