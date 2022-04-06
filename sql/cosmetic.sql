@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 30, 2022 at 11:41 AM
+-- Generation Time: Apr 06, 2022 at 04:18 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.3.29
 
@@ -35,6 +35,13 @@ CREATE TABLE `admins` (
   `Ad_Phone` varchar(11) DEFAULT NULL,
   `Ad_Position` char(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`Ad_ID`, `Ad_Name`, `Ad_Password`, `Ad_Email`, `Ad_Phone`, `Ad_Position`) VALUES
+('admin', 'admin', 'admin', 'admin', 'admin', '1');
 
 -- --------------------------------------------------------
 
@@ -145,6 +152,13 @@ CREATE TABLE `users` (
   `User_Address` varchar(100) DEFAULT NULL,
   `User_Tele` varchar(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`User_ID`, `User_Name`, `User_Password`, `User_Email`, `User_Address`, `User_Tele`) VALUES
+('hoangmap', 'hoangmap', 'hoangmap', 'hoangmap@gmail.com', 'hoangmap', '014725836');
 
 --
 -- Indexes for dumped tables

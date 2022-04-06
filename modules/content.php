@@ -25,6 +25,8 @@
 					include('modules/right/login.php');
 				}else if($tam == 'thanhtoan'){
 					include('modules/right/thanhtoan.php');
+				}else if(isset($_POST['search'])){
+					include('modules/right/search.php');
 				}else{
 					include('modules/right/tatcasp.php');
 				}

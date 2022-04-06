@@ -3,13 +3,13 @@
     //session_destroy();
 ?>
 
-<h1>Giỏ hàng của bạn</h1><h3 style = "float:right">
-<?php
-    if(isset($SESSION['login']))
-    {
-        echo 'Xin chào : '.$_SESSION['login'];
-    }
-?>
+<h1>Giỏ hàng của bạn</h1><h3 style = "float:right; padding-right:5px">
+    <?php
+        if(isset($_SESSION['login']))
+     {
+            echo 'Xin chào: '.$_SESSION['login'];
+     }
+    ?>
 </h3>
 <?php
     
