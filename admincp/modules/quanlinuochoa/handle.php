@@ -20,12 +20,12 @@
     {
         //sua
         if($hinhnuochoa!=''){
-        $sql_sua = "UPDATE `perfume` SET `Perfume_Name`='$tennuochoa',`Perfume_Price`='$gianuochoa',`Perfume_Quantity`='$soluongnuochoa',`Perfume_Image`='$hinhnuochoa',`Perfume_Description`='$motanuochoa',`Type_ID`='$loainuochoa' WHERE `Perfume_ID`='$id'";
+        $sql_sua = "UPDATE `perfume` SET `Perfume_Name`='$tennuochoa',`Perfume_Price`='$gianuochoa',`Perfume_Quantity`='$soluongnuochoa',`Perfume_Image`='$hinhnuochoa',`Perfume_Description`='$motanuochoa',`Type_ID`='$loainuochoa' WHERE `Perfume_ID`='$_GET[id]'";
         }else{
-            $sql="UPDATE `perfume` SET `Perfume_Name`='$tennuochoa',`Perfume_Price`='$gianuochoa',`Perfume_Quantity`='$soluongnuochoa',`Perfume_Description`='$motanuochoa',`Type_ID`='$loainuochoa' WHERE `Perfume_ID`='$id'";
+            $sql_sua="UPDATE `perfume` SET `Perfume_Name`='$tennuochoa',`Perfume_Price`='$gianuochoa',`Perfume_Quantity`='$soluongnuochoa',`Perfume_Description`='$motanuochoa',`Type_ID`='$loainuochoa' WHERE `Perfume_ID`='$_GET[id]'";
         }
         mysqli_query($conn,$sql_sua);
-        header('location:../../index.php?quanli=quanlinuochoa&ac=edit&id='.$id);
+        header('location:../../index.php?quanli=quanlinuochoa&ac=edit&id='.$_GET['id']);
     }else{
         //xoa
         $sql_xoa = "DELETE FROM `perfume` WHERE `Perfume_ID` = '$id'";

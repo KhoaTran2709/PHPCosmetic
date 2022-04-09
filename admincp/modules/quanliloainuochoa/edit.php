@@ -1,6 +1,6 @@
 <?php 
-    $id = (isset($_POST['id']) ? $HTTP_RAW_POST_DATA['id'] : '');
-    $sql ="SELECT * FROM `perfume_type` WHERE `Type_ID` = `$id`";
+    //$id = (isset($_POST['id']) ? $HTTP_RAW_POST_DATA['id'] : '');
+    $sql ="SELECT * FROM `perfume_type` WHERE `Type_ID` = `$_GET[id]`";
     $run_edit=mysqli_query($conn,$sql);
     $dong = mysqli_fetch_array($run_edit); 
     

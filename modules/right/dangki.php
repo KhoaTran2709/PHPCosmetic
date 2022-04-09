@@ -19,32 +19,32 @@
     }
 ?>
 <form action="index.php?quanli=dangki" method = "post" enctype = "multipart/form-data">
-<table width="300" border="1" >
+<table width="300" border="1">
   <tr>
     <td colspan="2" style="text-align:center;">Đăng ký thành viên</td>
   </tr>
   <tr>
-    <td>Username:</td>
-    <td><input type="text" name="username" ></td>
+    <td>Username: <strong style="color:red;"> (*)</strong></td>
+    <td><input type="text" name="username"></td>
   </tr>
   <tr>
-    <td>Your Name:</td>
+    <td>Your Name: <strong style="color:red;"> (*)</strong></td>
     <td><input type="text" name="name"></td>
   </tr>
   <tr>
-    <td>Password:</td>
+    <td>Password: <strong style="color:red;"> (*)</strong></td>
     <td><input type="password" name="pass"></td>
   </tr>
   <tr>
-    <td>Email:</td>
+    <td>Email: <strong style="color:red;"> (*)</strong></td>
     <td><input type="text" name="email"></td>
   </tr>
   <tr>
-    <td>Address:</td>
+    <td>Address: <strong style="color:red;"> (*)</strong></td>
     <td><input type="text" name="address"></td>
   </tr>
   <tr>
-    <td>Tele:</td>
+    <td>Tele: <strong style="color:red;"> (*)</strong></td>
     <td><input type="text" name="tele"></td>
   </tr>
   <tr>

@@ -1,72 +1,142 @@
-table{
-    border-collapse: collapse;
+/* CSS Document */
+body{
+	background:#fff;
 }
 *{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+	background-color:#FC6;
+	border:1px solid #F00;
+}
+textarea{
+	width:100%;
+	
+	resize:auto;
+	
+}
+table tr td{
+	color:#000;
+	font-size:18px;
+	padding:4px;
+}
+input{
+	width:60%;
+	height:20px;
 }
 
 .wrapper{
-    width: auto;
-    height: 1000px;
-    border: 1px solid #000;
-    margin: auto;
-    
-}
-.header{
-    width: 100%;
-    height: 120px;
-    border: 1px solid #000;
+	width:1000px;
+	height:auto;
+	
+	margin:auto;
 }
 .menu{
-    width: 100%;
-    height: 40px;
-    border: 1px solid #000;
+	width:100%;
+	height:40px;
+	
+	margin-top:2px;
+	background:#F90;
+	
 }
 .menu ul{
-    width: 100%;
-    height: 40px;
-    border:1px solid #000;
-    list-style: none;
+	width:100%;
+	list-style:none;
 }
 .menu ul li{
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    float: left;
+	width:150px;
+	text-align:center;
+	float:left;
+	line-height:40px;
+	
 }
 .menu ul li a{
-    text-decoration: none;
-    color:#000;
+	display:block;
+	color:#900;
+	text-decoration:none;
+	font-size:18px;
 }
-.menu a:hover{
-    color: #930;
+.menu li:hover{
+	background:#CCC;
+	
 }
-.left{
-    width: auto;
-    height: auto;
-    /*border: 1px solid #000;*/
-    
+.header{
+	width:100%;
+	height:120px;
+	
+	text-align:center;
+	line-height:120px;
+	font-size:40px;
+	color:#F90;
+	
 }
-.right{
-    width: auto;
-    height: auto;
-    /*border: 1px solid #000;*/
-   
-}
-
 .content{
-    width: 100%;
-    height: auto;
-    border: 1px solid #000;
+	width:100%;
+	height:auto;
+	
+	margin-top:2px;
+	
 }
-.clear{
-    clear:both;
+.box_contains{
+	width:90%;
+	height:auto;
+	
+	margin:auto;
 }
 .footer{
-    width: 100%;
-    height: 100px;
-    border: 1px solid #000;
+	width:100%;
+	height:120px;
+	
+	text-align:center;
+	line-height:120px;
+	font-size:40px;
+	color:#F90;
+	margin-top:5px;
+	
+	
 }
+.clear{
+	clear:both;
+}
+.button_themsp{
+	width:100px;
+	height:40px;
+	border:1px solid #000;
+	text-align:center;
+	background:#069;
+	line-height:40px;
+	color:#fff;
+	float:right;
+}
+.button_themsp a{
+	color:#fff;
+	display:block;
+	text-decoration:none;
+}
+.trang{
+	width:auto;
+	height:30px;
+	
+	font-size:25px;
+	padding-left:10px;
+	color:#000;
+	margin-top:2px;
+	background:#F90;
+}
+#timkiem{
+	width:200px;
+	height:27px;
+	border:1px solid #CCC;
+	margin-top:2px;
+}
+#button_timkiem{
+	width:100px;
+	height:30px;
+	background:blue;
+	color:#fff;
+	font-size:15px;
+}
+

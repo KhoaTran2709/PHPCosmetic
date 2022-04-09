@@ -8,9 +8,9 @@
   <title>Website Shopping Perfumes</title>
 </head>
 <body>
-  <div class ="wrapper"> <!-- Hoàng đã cmt chỗ này-->
+  <div class ="wrapper"> 
     <?php
-      include('admincp/modules/config.php'); // hoàng cmt chỗ này
+      include('admincp/modules/config.php'); 
       include('modules/header.php');
       include('modules/menu.php');
       include('modules/content.php');
